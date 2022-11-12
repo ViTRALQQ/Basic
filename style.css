@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.page-wrapper {
+    width: 905px;
+    margin: 0vh auto;
+}
+
+   
+
+header {
+    height: 182px;
+    padding: 1px;
+}
+
+
+
+.main {
+    height: 1950px;
+    font-size: 0;
+}
+
+.card {
+    display: inline-block;
+    height: 500px;
+    width: 400px;
+}
+.right{
+    margin-left: 100px;
+}
+
+.card:nth-child(3), .card:nth-child(4){
+    margin-top: 130px;
+}
+.card:nth-child(5), .card:nth-child(6){
+    margin-top: 126px;
+}
+.nav{
+width: 554px;
+height: 30px;
+margin: 0% auto;
+margin-top: 70px;
+}
+
+
+
+
+
+.list-item {
+    display: inline-block;
+    font-size: 14px;
+    margin-left: 100px;
+    line-height: 10px;
+    font-family: 'Lobster', cursive;
+    color: #5a5a5a;
+}
+.list-item:nth-child(1){
+    margin-left: 0;
+    color: #00a2ec;
+}
+.card-img{
+    height: 300px;
+    width: 400px;
+}
+.section-name{
+    margin-top: 32px;
+    font-size: 14px;
+    font-family: 'Lobster', cursive;
+color: #beb49e;
+}
+
+
+
+
+.section-title{
+margin-top: 32px;
+font-size: 30px;
+font-family: 'Lobster', cursive;
+color: #4d4242;
+}
+
+
+.section-text{
+margin-top: 40px;
+font-size: 17px;
+font-family: 'Lobster', cursive;
+color: #000000;
+}
+
+.button{
+height: 60px;
+width: 165px;
+font-family: 'Lobster', cursive;
+}
